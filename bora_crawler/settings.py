@@ -13,6 +13,7 @@ BOT_NAME = 'bora_crawler'
 
 SPIDER_MODULES = ['bora_crawler.spiders']
 NEWSPIDER_MODULE = 'bora_crawler.spiders'
+DOWNLOADER_CLIENTCONTEXTFACTORY = 'bora_crawler.context.CustomContextFactory'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
